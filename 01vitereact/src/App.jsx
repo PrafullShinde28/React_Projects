@@ -1,9 +1,16 @@
 
-
+import Chai from "./chai"
 function App() {
+const Username = "prafull ";
 
   return (
-   <h1>Basic react with vite</h1>
+    <> {/* fragmented element */}
+    
+     <Chai/>
+     <h1>chai aur react {Username}</h1>
+     <p1>test para</p1>
+     </>
+    
   )
 }
 
