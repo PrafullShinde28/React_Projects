@@ -2,9 +2,9 @@
 Read from here
 [Github Contribution](https://github.com/acdlite/react-fiber-architecture)
 
-if tailwind not work 
-cd D:\Learning_React
-git clone https://github.com/moinulmoin/vite-react-tailwind-starter.git password-generator
-cd password-generator
+
 npm install
 npm run dev
+
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init
