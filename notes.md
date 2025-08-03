@@ -9,5 +9,35 @@ npm run dev
 
 npm create vite@latest
 cd <> npm install
+
+
 npm install -D tailwindcss@3 postcss autoprefixer
 npx tailwindcss init
+
+index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+postcss.config.js
+
+export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+
+tailwind.config.js
+
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
