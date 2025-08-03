@@ -6,5 +6,8 @@ Read from here
 npm install
 npm run dev
 
+
+npm create vite@latest
+cd <> npm install
 npm install -D tailwindcss@3 postcss autoprefixer
 npx tailwindcss init
