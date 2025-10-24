@@ -12,7 +12,7 @@ cd <> npm install
 
 
 npm install -D tailwindcss@3 postcss autoprefixer
-npx tailwindcss init
+npx tailwindcss init -p
 
 index.css
 @tailwind base;
